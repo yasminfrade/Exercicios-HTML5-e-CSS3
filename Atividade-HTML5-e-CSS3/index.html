@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/faviconme.ico" type="image/x-icon">
+    <title>Título Site</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Primeiro Site Teste</h1>
+            <h2>Desenvolvimento do meu primeiro site HTML5 com CSS3, ao decorrer das aulas dos Curso em Vídeo, hospedado no GitHub Pages</h2>
+        </header>
+    </main>
+
+    <h1>Adicionando o que aprendi</h1>
+    <br>
+    <h2>Imagens</h2>
+    <p>Inserindo imagens para treinar</p>
+    <ul>
+        <li>Estado de Minas Gerais</li>
+        <img src="imagens/logo-256.png" alt="logo minas gerais">
+        <li>Logo da Universidade Federal de Minas Gerais</li>
+        <img src="imagens/ufmg.jpg" alt="ufmg">
+    </ul>
+    <br>
+    <br>
+    <h2>Links externos</h2>
+    <p>Você pode acessar meu repositório público no <a href="https://github.com/yasminfrade" target="_blank" rel="external">GitHub</a></p>
+    <p>Visite meu <a href="https://twitter.com/yasminfrade" target="_blank" rel="external">Twitter</a></p>
+    <br>
+    <br>
+    <h2>Links internos</h2>
+    <p>Visitando uma segunda página do site.</p>
+    <p><a href="pag02.html" rel="next">Clique aqui</a></p>
+    <br>
+    <br>
+    <h2>Links para download</h2>
+    <ul>
+        <li><a href="livro/Artigo legenda descritiva.pdf" download="Artigo legenda descritiva.pdf" type="aplication/pdf">Arquivo PDF</a></li>
+        <li><a href="livro/Artigo legenda descritiva.rar">Arquivo zip</a></li>
+    </ul>
+    <br>
+    <br>
+    <h2>Mídias em HTML 5</h2>
+    <P>Imagens dinâmicas.<br>Abrir am dispositivos diferentes ou mudar o tanho do navegador.</P>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+    <br>
+    <br>
+    <h2>Áudios</h2>
+    <p>Reprodução de áudios em HTML 5 </p>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/me-deixe-sair.mp3" type="audio/mpeg">
+        <source src="midia/me-deixe-sair.ogg" type="audio/ogg">
+        <source src="midia/me-deixe-sair.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não reproduz o áudio. <a href="midia/me-deixe-sair.mp3">Clique aqui para baixar o MP3.</a></p>
+    </audio>
+    <br>
+    <br>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/tva.mp3" type="audio/mpeg">
+        <source src="midia/tva.ogg" type="audio/ogg">
+        <source src="midia/tva.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não reproduz o áudio. <a href="midia/tva.mp3">Clique aqui para baixar o MP3.</a></p>
+    </audio>
+    <br>
+    <br>
+    <h2>Vídeos</h2>
+    <p>Inserindo vídeos hospedados localmente</p>
+    <video width="560" poster="imagens/pexels-pixabay-416179.jpg" controls>
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <p>Infelizmente seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+    </video>
+    <br>
+    <br>
+    <h2>Incorporando vídeos externos</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br>
+    <br>  
+    <h2><mark>Último desafio HTML5</mark></h2>
+    <h2><ins>Vídeos legais para assistir</ins></h2>
+
+    <a href="pag-html.html" target="self" rel="next"><img src="imagens/thumb-html.png" alt="html"></a>
+    <a href="pag-js.html" target="self" rel="next"><img src="imagens/thumb-js.png" alt="js"></a>
+    <br>
+    <a href="pag-python.html" target="self" rel="next"><img src="imagens/thumb-python.png" alt="python"></a>
+    <a href="pag-hardware.html" target="self" rel="next"><img src="imagens/thumb-hardware.png" alt="hardware"></a>
+</body>
+</html>

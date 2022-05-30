@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas ordenadas</h2>
+    <p>São listas em que a ordem faz a diferença</p>
+    <ol type="I">
+        <li>Acordar</li>
+        <li>Ligar pro João</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Lavar roupa</li>
+    </ol>
+    <p>Inserindo algo na lista antes de outro item, automaticamente todos os outros itens serão renumerados. <br>A tag &lt;li&gt; no HTML 5 não tem obrigatóriedade de ser fechada, é opcional. <br>Porém a tag &lt;ol&gt; é obrigatório o fechamento. <br>Dentro da tag &lt;ol&gt; existe os Types 1, A, a, I, i</p>
+    <h2>Listas não ordemanadas</h2>
+    <p>A ordem neste tipo de lista não importa.</p>
+    <ul type="square">
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Café</li>
+        <li>Requeijão</li>
+    </ul>
+    <p>O item inserido fica exaatamente onde foi inserido. <br> As tags segue o mesmo principios, em que o fechamento de &lt;li&gt; nçao é opcional e &lt;ul&gt; é obrigatório. <br>Dentro da tag &lt;ul&gt; temos 3 opções de type: circle, square e disc</p>
+    <h2>Juntando listas 1.0</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Musicas dos anos 2000</li>
+            <li>Progressiva com formol</li>
+            <li>Faculdade</li>
+            <li>Estação Brasil</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>Muito FitDance</li>
+            <li>Dois gatos</li>
+            <li>Estudando programação</li>
+        </ol>
+    </ol>
+    <h3>Coisas do Guanabara</h3>
+    <ol>
+        <li>NES</li>
+        <ul>
+            <li>Mario Bros</li>
+            <ul>
+                <li>Mario Bros 3</li>
+                <li>Mario: Lost Levels</li>
+            </ul>
+            <li>Ninja Gaiden</li>
+        </ul>
+        <li>SNES</li>
+        <ul>
+            <li>Mario</li>
+            <li>Donkey Kong</li>
+        </ul>
+        <li>PlayStation</li>
+        <ul>
+            <li>Final Fantasy</li>
+            <li>Castlevania</li>
+        </ul>
+    </ol>
+    <h2>Lista de definições (dicinário)</h2>
+    <p>Usando a tag &lt;dl&gt; (definition list)</p>
+    <dl>
+        <dt>HTML (definition term - tag &lt;dt&gt;)</dt>
+        <dd>Linguagem de marcação para criação de conteudo de um site. (definition description - tag &lt;dd&gt;)</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para criação do design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programção para criar a interatividade de um site.</dd>
+    </dl>
+</body>
+</html>
