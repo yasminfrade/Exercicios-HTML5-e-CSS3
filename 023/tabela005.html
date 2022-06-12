@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 5</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        col.amarelo {
+            background-color: yellow;
+        }
+        col.vermelho {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabela 5</h1>
+    <table>
+        <colgroup>
+            <col class="amarelo">
+            <col class="vermelho" span="2">
+            <col class="amarelo">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Yasmin</td>
+            <td>F</td>
+            <td>33</td>
+            <td>Bióloga</td>
+        </tr>
+        <tr>
+            <td>Giordano</td>
+            <td>M</td>
+            <td>34</td>
+            <td>CEO</td>
+        </tr>
+        <tr>
+            <td>Nathalia</td>
+            <td>F</td>
+            <td>35</td>
+            <td>Arquiteta</td>
+        </tr>
+        <tr>
+            <td>Tatiana</td>
+            <td>F</td>
+            <td>30</td>
+            <td>Adevogada</td>
+        </tr>
+    </table>
+</body>
+</html>
